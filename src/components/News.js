@@ -1,5 +1,5 @@
 import React from 'react';
-const url = 'http://newsapi.org/v2/top-headlines?' +
+const url = 'https://newsapi.org/v2/top-headlines?' +
   'country=us&' +
   'apiKey=d8b89ab14a2e4a6fb0ba7ed856e0ee86';
 const req = new Request(url);
